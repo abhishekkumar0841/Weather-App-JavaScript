@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 2rem;
+    box-shadow: 4px 4px 10px black;
+    text-align: center;
+}
+
+.container h1{
+    margin-bottom: 1rem;
+}
+
+input[type=text]{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(7, 164, 227);
+}
+
+input[type=submit]{
+    background: rgb(7, 164, 227);
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.icon{
+    padding: 1rem;
+}
+
+.icon img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(7, 164, 227);
+}
+
+.temperature{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 3rem;
+}
+
+.details{
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.details div{
+    border: 2px solid rgb(7, 164, 227);;
+    padding: 1rem;
+    
+}
